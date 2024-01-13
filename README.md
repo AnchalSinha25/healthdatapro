@@ -1,37 +1,64 @@
-# Healthdatapro
-This synthetic dataset contains sleep and cardiovascular metrics as well as lifestyle factors of close to 400 fictive persons.
-Sleep Health and Lifestyle
-This synthetic dataset contains sleep and cardiovascular metrics as well as lifestyle factors of close to 400 fictive persons.
+**Sleep Health and Lifestyle** https://app.datacamp.com/workspace/w/a9f34301-3394-4857-b5be-defba3394b98/edit
+Sleep and Cardiovascular Metrics Exploration and Classification Project 🌜📈🏥
+Dataset Overview 📊
+The provided synthetic dataset, named "Healthdatapro," encompasses sleep and cardiovascular metrics, as well as lifestyle factors for approximately 400 fictive individuals. The main file, data.csv, incorporates essential columns:
 
-The workspace is set up with one CSV file, data.csv, with the following columns:
+Person ID 🆔
+Gender ♀♂
+Age 🎂
+Occupation 👩‍⚕️👨‍💻
+Sleep Duration ⏰: Average daily hours of sleep
+Quality of Sleep 🌙: Subjective rating on a 1-10 scale
+Physical Activity Level 🏋️: Average daily minutes of physical activity
+Stress Level 😓: Subjective rating on a 1-10 scale
+BMI Category 📏
+Blood Pressure 💓: Systolic over diastolic pressure
+Heart Rate ❤️: Beats per minute
+Daily Steps 👣
+Sleep Disorder 😴: Categorized as None, Insomnia, or Sleep Apnea
+Exploratory Data Analysis (EDA) 🔍
+Key Questions ❓
+Factors Contributing to Sleep Disorders:
+Explore which factors might contribute to the presence of sleep disorders. Investigate relationships between variables such as stress level, age, and physical activity.
 
-Person ID
-Gender
-Age
-Occupation
-Sleep Duration: Average number of hours of sleep per day
-Quality of Sleep: A subjective rating on a 1-10 scale
-Physical Activity Level: Average number of minutes the person engages in physical activity daily
-Stress Level: A subjective rating on a 1-10 scale
-BMI Category
-Blood Pressure: Indicated as systolic pressure over diastolic pressure
-Heart Rate: In beats per minute
-Daily Steps
-Sleep Disorder: One of None, Insomnia or Sleep Apnea
+Impact of Physical Activity on Sleep Quality:
+Analyze if an increased level of physical activity correlates with better sleep quality. Plotting a scatter plot or regression analysis can help visualize this relationship.
+
+Effect of Sleep Disorder on Subjective Sleep Quality:
+Investigate whether the presence of a sleep disorder affects the subjective sleep quality metric. A comparative analysis or statistical test may provide insights.
+
+Visualization Ideas 📈
+Boxplot by Occupation 📊:
+Illustrate the distribution of sleep duration or quality of sleep for each occupation. This can help identify patterns and differences among various professions.
+Scenario: Sleep Disorder Classification 🛌🚀
+Background 🌐
+As a professional in a health insurance company, your task is to create a classifier that predicts whether a potential client is likely to have a sleep disorder. This information will be utilized to determine the appropriate insurance premium for the client.
+
+Objective 🎯
+Construct a robust classifier based on the available dataset to predict the presence of a sleep disorder using features such as age, gender, occupation, sleep duration, and more.
+
+Project Steps 📝
+Data Preprocessing 🧹:
+Clean and preprocess the dataset, handling missing values and encoding categorical variables.
+
+Exploratory Data Analysis (EDA) 🕵️:
+Further explore the dataset to understand relationships and patterns that might aid in the classification task.
+
+Feature Selection 🎯:
+Identify the most relevant features for the classification model. Utilize techniques such as feature importance or correlation analysis.
+
+Model Development 🤖:
+Choose a suitable classification algorithm (e.g., logistic regression, decision tree, or random forest) and train the model on the dataset.
+
+Model Evaluation 📊:
+Evaluate the model's performance using metrics like accuracy, precision, recall, and F1 score. Utilize cross-validation to ensure robustness.
+
+Deployment 🚀:
+If the model performs well, deploy it for real-time predictions. Otherwise, iterate on the model and feature selection steps.
+
+By successfully completing this scenario, you will not only address the insurance company's needs but also showcase your ability to handle end-to-end projects involving data exploration and machine learning classification. 🌟
 
 
-🌎 Some guiding questions to help you explore this data:
-Which factors could contribute to a sleep disorder?
-Does an increased physical activity level result in a better quality of sleep?
-Does the presence of a sleep disorder affect the subjective sleep quality metric?
 
-📊 Visualization ideas
-Boxplot: show the distribution of sleep duration or quality of sleep for each occupation.
 
-🔍 Scenario: Automatically identify potential sleep disorders
-This scenario helps you develop an end-to-end project for your portfolio.
 
-Background: You work for a health insurance company and are tasked to identify whether or not a potential client is likely to have a sleep disorder. The company wants to use this information to determine the premium they want the client to pay.
-
-Objective: Construct a classifier to predict the presence of a sleep disorder based on the other columns in the dataset.
-https://app.datacamp.com/workspace/w/a9f34301-3394-4857-b5be-defba3394b98/edit
